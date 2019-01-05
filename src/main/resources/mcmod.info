@@ -1,0 +1,16 @@
+[
+{
+  "modid": "farmeradditions",
+  "name": "AA Farmer Compat",
+  "description": "Adds additional mod compatibility for the Actually Additions Farmer",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Quarris"],
+  "credits": "Ellpeck for creating AA.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["actuallyadditions"]
+}
+]
