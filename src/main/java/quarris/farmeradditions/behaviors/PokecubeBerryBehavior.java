@@ -1,26 +1,20 @@
 package quarris.farmeradditions.behaviors;
 
-import com.sun.xml.internal.ws.spi.db.PropertyGetter;
 import de.ellpeck.actuallyadditions.api.farmer.FarmerResult;
 import de.ellpeck.actuallyadditions.api.farmer.IFarmerBehavior;
 import de.ellpeck.actuallyadditions.api.internal.IFarmer;
-import de.ellpeck.actuallyadditions.mod.blocks.BlockFarmer;
 import de.ellpeck.actuallyadditions.mod.misc.apiimpl.farmer.DefaultFarmerBehavior;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockCrops;
 import net.minecraft.block.BlockDirt;
 import net.minecraft.block.BlockGrass;
-import net.minecraft.block.properties.IProperty;
-import net.minecraft.block.properties.PropertyHelper;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.SoundEvents;
-import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraftforge.common.IPlantable;
 import pokecube.core.blocks.berries.BlockBerryCrop;
 import pokecube.core.blocks.berries.BlockBerryFruit;
 import pokecube.core.blocks.berries.TileEntityBerries;
